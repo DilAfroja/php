@@ -1,0 +1,36 @@
+.x{
+	width: 900px;
+	height: 250px;
+	
+}
+
+.x h1{
+	padding-top: 50px;
+	text-align: center;
+	text-shadow: 3px 3px 10px rgb(23,240,44);
+	font-size: 50px;
+}
+.x p{
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 3px 3px 20px rgb(230,24,44);
+}
+
+.button{
+	background-color:rgb(100,255,200);
+	padding:6px;
+	border-radius:20px;
+}
+/*.z1{
+	margin-right: 10px;
+	margin-top: 910px;
+}
+.z2{
+	margin-right: 225px;
+	margin-top: 910px;
+}
+.z3{
+	margin-right: 500px;
+	margin-top: 910px;
+
+}*/

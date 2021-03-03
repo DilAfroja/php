@@ -11,95 +11,37 @@
 	  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	
-<div class="containe-fluid alert alert-info">
-  <div class="row">
-	<div class="col-sm-4" >					  
-	   <a href="home.html" class="btn btn-light my-0 py-0" style="width:180px;">Home</a>
-	   <a href="about_us.html" class="btn btn-light my-0 py-0" style="width:180px;">About Us</a>
-	   <a href="college_info.html" class="btn btn-light my-0 py-0" style="width:180px;">College info</a>
-	   <a href="teacher_info.html" class="btn btn-light my-0 py-0" style="width:180px;">Teacher info</a>
-	   <a href="student_name.html" class="btn btn-light my-0 py-0" style="width:180px;">Student Name</a>
-	   <a href="student_roll.html" class="btn btn-light my-0 py-0" style="width:180px;">Student Roll</a>
-	   <a href="father_name.html" class="btn btn-light my-0 py-0" style="width:180px;">Father Name</a>
-	   <a href="mother_name.html" class="btn btn-light my-0 py-0" style="width:180px;">Mother Name</a>
-	   <a href="student_address.html" class="btn btn-light my-0 py-0" style="width:180px;">Student Address</a>
-	   <a href="student_phone_no.html" class="btn btn-light my-0 py-0" style="width:180px;">Student Phone No.</a>
-	   
-	</div>	
-	<div class="col-sm-8">
-		<img src="duc.jpg" width="550px" height="230px">
-	</div>
-  </div>
-	  <div class="my-3 text-center"><label><h3 style="color: red">Student Information for Registration</h3></label></div>
-	<div class="row">
-		<div class="col-sm-6">
-		 <form class="my-1" action="home.php" method="post" enctype="multipart/form-data">
-		 	<div class="form-group ">	
-			<label>Student Full Name:</label>
-				<input type="text" class="form-control" name="student_name" placeholder="Student Full Name" >
-			<label>Roll: </label>
-				<input type="number" class="form-control" name="roll" placeholder="Roll" >
-			<label>Father Name:</label>
-				<input type="text" class="form-control" name="father_name" placeholder="Father Name" >
-			<label>Mother Name:</label>
-				<input type="text" class="form-control" name="mother_name" placeholder="Mother Name" >
-			<label>Address:</label>
-				<input type="text" class="form-control" name="address" placeholder="Address"  >
-			<label>Date of Birth</label>
-				<input type="date" class="form-control" name="date_of_birth" placeholder="Date of Birth"  >
-			<label>Color</label>
-				Color<input type="color" class="form-control" style="width: 180px;" name="color" placeholder="">
-			<label>Add_File</label>
-				<input type="file" class="form-control py-1" name="file" placeholder="">
-				<input type="submit" class="btn btn-info my-3 py-2" style="width: 180px;"  value="Submit Button">
+		<div class="content-fluid">
+		<!-- <div class="jumbotron text-center"> -->
+			<nav class="navbar navbar-expand-sm bg-info navbar-dark">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="button" href="#">Home</a>
+						<a class="button" href="#">About Us</a>
+						<a class="button" href="#">College Info</a>
+						<a class="button" href="#">Teacher Info</a>					
+						<a class="button" href="#">Student Name</a>
+						<a class="button" href="#">Student Roll</a>
+						<a class="button" href="#">Student Address</a>
+						<a class="button" href="#">Student Phone No.</a>
+				</ul>	  	
+			</nav>
+			<div style="background-color:rgb(255,255,255);width: 900px;height: 20px;"></div>
+			<div class="row">
+				<div class="col-sm-4"><img src="img/duc.jpg" width="300" height="250"></div>
+				<div class="x bg-info col-sm-8">
+					
+						<p>HSC ICT</p>
+						<p>Education For Learn</p>
+				  		<h1>Wellcome The Website</h1>
+				 	
+				</div>	  		  
 			</div>
-		 </form>
+			<div style="background-color:rgb(255,255,255);width: 900px;height: 20px;"></div>
+			<div class="row">
+				<div class="col-sm-3"><img src="img/CCC.jpg" width="220" height="250"></div>
+				<div class="col-sm-3"><img src="img/DIGITAL.jpg" width="220" height="250"></div>
+				<div class="col-sm-3"><img src="img/NUMBER.jpg" width="220" height="250"></div>
+				<div class="col-sm-3"><img src="img/x.jpg" width="220" height="250"></div>
+			</div>
 		</div>
-			<div class="col-sm-6">
-			 <form class="my-1" action="home.php" method="post" enctype="multipart/form-data">
-		 		<div class="form-group ">
-			
-			<label>Email Address:</label>
-				<input type="text" class="form-control" name="email" placeholder="Email Address"  >
-			<label>Phone No:</label>
-				<input type="number" class="form-control" name="phone_no" placeholder="Phone No" >
-			<label>Result </label>
-				<input type="text" class="form-control" name="result" placeholder="Result" >
-			<label>Session </label>
-				<input type="number" class="form-control" name="Session" placeholder="Session" >
-			 
- 					<label>Gender: </label><br>
-			 		
-			 		<input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
-			 		<input type="radio" id="female" name="gender" value="male"> <label for="female">Female</label><br> 
-			 		<label>City: </label><br>
-			 		
-			 			<select name="select" >
-			 			<option>...Choose...</option>
-			 			<option>Dhaka</option>
-			 			<option>Khulna</option>
-			 			<option>Rajshahi</option>
-			 			<option>Sylhet</option>
-			 			<option>Chittagong</option>
-			 			<option>Borishal</option>
-			 		</select><br>
-			 	
-			 		<label class="my-2">Subject: </label>
-			 	
-			 				<input type="checkbox" name="Bangla">Bangla
-			 				<input type="checkbox" name="English">English
-			 				<input type="checkbox" name="Accounting">Accounting
-			 				<input type="checkbox" name="Geography">Geography<br>
-			 				<input type="checkbox" name="ICT">ICT
-			 				<input type="checkbox" name="ICT">Management
-			 				<input type="checkbox" name="ICT">Economy
-			 				
-			 			
-					</div>
-				</form>
-		   </div>
-	</div>
-			
-</body>
-</html>
